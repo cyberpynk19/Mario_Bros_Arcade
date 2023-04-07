@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+#mario-andando-direita{
+    width: 25px;
+    height: 35px;
+    background-image: url(/mario/img/mario-direita.png);
+    animation: animacao-mario 370ms steps(3) infinite;
+    zoom: 200%;
+}
+
+@keyframes animacao-mario {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 80px 0;
+    }
+
+}
